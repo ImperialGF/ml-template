@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: mltemplate
+Version: 0.1.0
+Summary: ML project template with lint/format/test/CI
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# ml-template
+
+Шаблон ML-проекта: форматирование, линт, тесты, CI.
+
+## Быстрый старт
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install --upgrade pip
+pip install pytest pre-commit black ruff
+pre-commit install
+pytest

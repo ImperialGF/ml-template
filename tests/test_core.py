@@ -1,5 +1,7 @@
 import tempfile
-from src.mltemplate.core import summarize_csv
+
+from mltemplate.core import summarize_csv
+
 
 def test_summarize_csv_basic():
     content = "a,b,c\n1,2,3\n4,5,6\n"
