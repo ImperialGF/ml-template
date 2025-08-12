@@ -1,5 +1,6 @@
-from pathlib import Path
 import csv
+from pathlib import Path
+
 
 def summarize_csv(path: str) -> dict:
     """

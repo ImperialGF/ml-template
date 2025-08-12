@@ -1,9 +1,11 @@
 README.md
 pyproject.toml
 src/mltemplate/__init__.py
+src/mltemplate/cli.py
 src/mltemplate/core.py
 src/mltemplate.egg-info/PKG-INFO
 src/mltemplate.egg-info/SOURCES.txt
 src/mltemplate.egg-info/dependency_links.txt
 src/mltemplate.egg-info/top_level.txt
+tests/test_cli.py
 tests/test_core.py
